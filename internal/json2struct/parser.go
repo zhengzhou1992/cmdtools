@@ -46,7 +46,7 @@ func NewParser(s string) (*Parser, error) {
 	return &Parser{
 		Source:     source,
 		StructTag:  "type %s struct {",
-		StructName: "tour",
+		StructName: "RenameMe",
 	}, nil
 }
 
